@@ -63,7 +63,7 @@ export default {
 
     a{
         color: inherit;
-        font-style: none;
+        text-decoration: none;
     }
 
     .author-wrap {
