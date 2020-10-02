@@ -17,7 +17,9 @@
                 </div>
             </div>
 
-            <h6 class="mt-5">LATEST</h6>
+            <p class="mt-4"><b>LATEST</b></p>
+            <hr class="divider mt-2">
+
             <LatestTopic/>
             <FeaturedWriter class="mt-5"/>
             <LatestTopic/>
@@ -72,6 +74,11 @@ export default {
 
     .avatar {
         display: block
+    }
+
+    .divider{
+        width: 100%;
+        border-top: 1px solid #8c8b8b;
     }
     
 
