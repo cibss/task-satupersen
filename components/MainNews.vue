@@ -26,7 +26,7 @@
         </div>
 
         <div class="right">
-            <TopicInfo class="mt-5"/>
+            <TopicInfo class="mt-4"/>
             <RelatedTopic class="mt-5"/>
             <PopularTopic class="mt-5"/>
         </div>
