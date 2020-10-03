@@ -1,5 +1,7 @@
 <template>
     <div>
+        <p class="mt-4"><b>LATEST</b></p>
+        <hr class="divider mt-2">
         <b-media right-align vertical-align="center"  v-for="x in 3" :key="x" class="mb-3">
             <template v-slot:aside>
                 <a href="https://medium.com/full-stack-architecture/better-software-through-well-defined-configuration-context-a6364d164605">
@@ -48,5 +50,10 @@
         object-fit: cover;
         width: 152px;
         height: 135px;
+    }
+
+    .divider{
+        width: 100%;
+        border-top: 1px solid #8c8b8b;
     }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="div-size mb-5">
+    <div class="div-size mb-5" style="flex-wrap: wrap;">
         <h6 class="pt-4 pl-4"><b>FEATURED WRITER</b></h6>
         <b-row class="ml-3 mr-3 mb-3">
             <b-col class="col-12 col-sm-6 col-md-6">
