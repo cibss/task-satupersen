@@ -7,7 +7,7 @@
 
             <b-navbar-nav>
                 <hr class="divider">
-                <b-nav-item href="https://medium.com/topic/software-engineering" style="font-size:18px">
+                <b-nav-item href="https://medium.com/topic/software-engineering" style="font-size:18px;">
                     Software Engineering
                 </b-nav-item>
             </b-navbar-nav>
@@ -45,7 +45,7 @@
     } */
 
 
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 720px) {
         .right-menu, hr{
             display: none;
         }
